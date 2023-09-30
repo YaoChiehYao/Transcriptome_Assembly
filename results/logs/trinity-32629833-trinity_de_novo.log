@@ -1,0 +1,206 @@
+data/paired/Aip02.R1.fastq,data/paired/Aip05.R1.fastq,data/paired/Aip06.R1.fastq,data/paired/Aip12.R1.fastq,data/paired/Aip13.R1.fastq,data/paired/Aip14.R1.fastq,data/paired/Aip15.R1.fastq,data/paired/Aip17.R1.fastq,data/paired/Aip18.R1.fastq,data/paired/Aip19.R1.fastq,data/paired/Aip20.R1.fastq,data/paired/Aip21.R1.fastq,data/paired/Aip23.R1.fastq,data/paired/Aip24.R1.fastq,data/paired/Aip25.R1.fastq,data/paired/Aip26.R1.fastq,data/paired/Aip28.R1.fastq,data/paired/Aip29.R1.fastq,data/paired/Aip30.R1.fastq,data/paired/Aip32.R1.fastq,data/paired/Aip33.R1.fastq,data/paired/Aip34.R1.fastq,data/paired/Aip35.R1.fastq,data/paired/Aip36.R1.fastq
+data/paired/Aip02.R2.fastq,data/paired/Aip05.R2.fastq,data/paired/Aip06.R2.fastq,data/paired/Aip12.R2.fastq,data/paired/Aip13.R2.fastq,data/paired/Aip14.R2.fastq,data/paired/Aip15.R2.fastq,data/paired/Aip17.R2.fastq,data/paired/Aip18.R2.fastq,data/paired/Aip19.R2.fastq,data/paired/Aip20.R2.fastq,data/paired/Aip21.R2.fastq,data/paired/Aip23.R2.fastq,data/paired/Aip24.R2.fastq,data/paired/Aip25.R2.fastq,data/paired/Aip26.R2.fastq,data/paired/Aip28.R2.fastq,data/paired/Aip29.R2.fastq,data/paired/Aip30.R2.fastq,data/paired/Aip32.R2.fastq,data/paired/Aip33.R2.fastq,data/paired/Aip34.R2.fastq,data/paired/Aip35.R2.fastq,data/paired/Aip36.R2.fastq
+
+
+     ______  ____   ____  ____   ____  ______  __ __
+    |      ||    \ |    ||    \ |    ||      ||  |  |
+    |      ||  D  ) |  | |  _  | |  | |      ||  |  |
+    |_|  |_||    /  |  | |  |  | |  | |_|  |_||  ~  |
+      |  |  |    \  |  | |  |  | |  |   |  |  |___, |
+      |  |  |  .  \ |  | |  |  | |  |   |  |  |     |
+      |__|  |__|\_||____||__|__||____|  |__|  |____/
+
+    Trinity-v2.9.1
+
+
+
+Left read files: $VAR1 = [
+          'data/paired/Aip02.R1.fastq',
+          'data/paired/Aip05.R1.fastq',
+          'data/paired/Aip06.R1.fastq',
+          'data/paired/Aip12.R1.fastq',
+          'data/paired/Aip13.R1.fastq',
+          'data/paired/Aip14.R1.fastq',
+          'data/paired/Aip15.R1.fastq',
+          'data/paired/Aip17.R1.fastq',
+          'data/paired/Aip18.R1.fastq',
+          'data/paired/Aip19.R1.fastq',
+          'data/paired/Aip20.R1.fastq',
+          'data/paired/Aip21.R1.fastq',
+          'data/paired/Aip23.R1.fastq',
+          'data/paired/Aip24.R1.fastq',
+          'data/paired/Aip25.R1.fastq',
+          'data/paired/Aip26.R1.fastq',
+          'data/paired/Aip28.R1.fastq',
+          'data/paired/Aip29.R1.fastq',
+          'data/paired/Aip30.R1.fastq',
+          'data/paired/Aip32.R1.fastq',
+          'data/paired/Aip33.R1.fastq',
+          'data/paired/Aip34.R1.fastq',
+          'data/paired/Aip35.R1.fastq',
+          'data/paired/Aip36.R1.fastq'
+        ];
+Right read files: $VAR1 = [
+          'data/paired/Aip02.R2.fastq',
+          'data/paired/Aip05.R2.fastq',
+          'data/paired/Aip06.R2.fastq',
+          'data/paired/Aip12.R2.fastq',
+          'data/paired/Aip13.R2.fastq',
+          'data/paired/Aip14.R2.fastq',
+          'data/paired/Aip15.R2.fastq',
+          'data/paired/Aip17.R2.fastq',
+          'data/paired/Aip18.R2.fastq',
+          'data/paired/Aip19.R2.fastq',
+          'data/paired/Aip20.R2.fastq',
+          'data/paired/Aip21.R2.fastq',
+          'data/paired/Aip23.R2.fastq',
+          'data/paired/Aip24.R2.fastq',
+          'data/paired/Aip25.R2.fastq',
+          'data/paired/Aip26.R2.fastq',
+          'data/paired/Aip28.R2.fastq',
+          'data/paired/Aip29.R2.fastq',
+          'data/paired/Aip30.R2.fastq',
+          'data/paired/Aip32.R2.fastq',
+          'data/paired/Aip33.R2.fastq',
+          'data/paired/Aip34.R2.fastq',
+          'data/paired/Aip35.R2.fastq',
+          'data/paired/Aip36.R2.fastq'
+        ];
+Trinity version: Trinity-v2.9.1
+** NOTE: Latest version of Trinity is Trinity-v2.14.0, and can be obtained at:
+	https://github.com/trinityrnaseq/trinityrnaseq/releases
+
+Tuesday, November 15, 2022: 12:10:29	CMD: java -Xmx64m -XX:ParallelGCThreads=2  -jar /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/ExitTester.jar 0
+Tuesday, November 15, 2022: 12:10:29	CMD: java -Xmx4g -XX:ParallelGCThreads=2  -jar /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/ExitTester.jar 1
+
+
+----------------------------------------------------------------------------------
+-------------- Trinity Phase 1: Clustering of RNA-Seq Reads  ---------------------
+----------------------------------------------------------------------------------
+
+---------------------------------------------------------------
+------------ In silico Read Normalization ---------------------
+-- (Removing Excess Reads Beyond 200 Coverage --
+---------------------------------------------------------------
+
+# running normalization on reads: $VAR1 = [
+          [
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip02.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip05.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip06.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip12.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip13.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip14.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip15.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip17.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip18.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip19.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip20.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip21.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip23.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip24.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip25.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip26.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip28.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip29.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip30.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip32.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip33.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip34.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip35.R1.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip36.R1.fastq'
+          ],
+          [
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip02.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip05.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip06.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip12.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip13.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip14.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip15.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip17.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip18.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip19.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip20.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip21.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip23.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip24.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip25.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip26.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip28.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip29.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip30.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip32.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip33.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip34.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip35.R2.fastq',
+            '/scratch/yao.yao-/worksample/module-08-YaoChiehYao/data/paired/Aip36.R2.fastq'
+          ]
+        ];
+
+
+--------------------------------------------------------
+-------------------- Chrysalis -------------------------
+-- (Contig Clustering & de Bruijn Graph Construction) --
+--------------------------------------------------------
+
+inchworm_target: /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/both.fa
+bowtie_reads_fa: /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/both.fa
+chrysalis_reads_fa: /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/both.fa
+
+
+#######################################################################
+Inchworm file: /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/inchworm.DS.fa detected.
+Skipping Inchworm Step, Using Previous Inchworm Assembly
+#######################################################################
+
+-- Skipping CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/filter_iworm_by_min_length_or_cov.pl /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/inchworm.DS.fa 100 10 > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/inchworm.DS.fa.min100, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/inchworm.DS.fa.min100.ok] exists.
+-- Skipping CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/bin/bowtie2-build --threads 4 -o 3 /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/inchworm.DS.fa.min100 /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/inchworm.DS.fa.min100 1>/dev/null, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/inchworm.DS.fa.min100.bowtie2-build.ok] exists.
+-- Skipping CMD: bash -c " set -o pipefail;/shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/bin/bowtie2 --local -k 2 --no-unal --threads 4 -f --score-min G,20,8 -x /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/inchworm.DS.fa.min100 /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/both.fa  | samtools view -@ 4 -F4 -Sb - | samtools sort -m 1342177280 -@ 4 -no - - > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm.bowtie.nameSorted.bam" , checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm.bowtie.nameSorted.bam.ok] exists.
+-- Skipping CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/scaffold_iworm_contigs.pl /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm.bowtie.nameSorted.bam /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/inchworm.DS.fa > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_scaffolds.txt, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_scaffolds.txt.ok] exists.
+-- Skipping CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/Chrysalis/bin/GraphFromFasta -i /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/inchworm.DS.fa -r /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/both.fa -min_contig_length 200 -min_glue 2 -glue_factor 0.05 -min_iso_ratio 0.05 -t 4 -k 24 -kk 48  -scaffolding /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_scaffolds.txt  > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt.ok] exists.
+-- Skipping CMD: /usr/bin/sort --parallel=4 -T . -S 10G  -k9,9gr /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt.sorted, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt.sorted.ok] exists.
+-- Skipping CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/annotate_chrysalis_welds_with_iworm_names.pl /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/inchworm.DS.fa /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt.sorted > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt.sorted.wIwormNames, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt.sorted.wIwormNames.ok] exists.
+-- Skipping CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/Chrysalis/bin/BubbleUpClustering -i /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/inchworm.DS.fa  -weld_graph /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/iworm_cluster_welds_graph.txt.sorted -min_contig_length 200 -max_cluster_size 25  > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/GraphFromIwormFasta.out, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/GraphFromIwormFasta.out.ok] exists.
+-- Skipping CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/Chrysalis/bin/CreateIwormFastaBundle -i /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/GraphFromIwormFasta.out -o /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/bundled_iworm_contigs.fasta -min 200, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/bundled_iworm_contigs.fasta.ok] exists.
+-- Skipping CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/Chrysalis/bin/ReadsToTranscripts -i /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/both.fa -f /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/bundled_iworm_contigs.fasta -o /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/readsToComponents.out -t 4 -max_mem_reads 50000000 , checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/readsToComponents.out.ok] exists.
+-- Skipping CMD: /usr/bin/sort --parallel=4 -T . -S 10G -k 1,1n /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/readsToComponents.out > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/readsToComponents.out.sort, checkpoint [/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/chrysalis/readsToComponents.out.sort.ok] exists.
+
+
+--------------------------------------------------------------------------------
+------------ Trinity Phase 2: Assembling Clusters of Reads ---------------------
+------- (involving the Inchworm, Chrysalis, Butterfly trifecta ) ---------------
+--------------------------------------------------------------------------------
+
+Tuesday, November 15, 2022: 12:10:30	CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/trinity-plugins/BIN/ParaFly -c recursive_trinity.cmds -CPU 4 -v -shuffle 
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c0.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c0.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c1.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c1.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c2.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c2.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c3.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c3.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c4.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c4.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c5.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c5.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c6.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c6.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c7.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c7.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c8.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c8.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c9.trinity.reads.fa" --output "/scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/Fb_0/CBin_0/c9.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+-reached max skip warning, turning off warnings for this.
+Number of Commands: 0
+
+
+All commands completed successfully. :-)
+
+
+
+** Harvesting all assembled transcripts into a single multi-fasta file...
+
+Tuesday, November 15, 2022: 12:10:30	CMD: find /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/read_partitions/ -name '*inity.fasta'  | /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/partitioned_trinity_aggregator.pl --token_prefix TRINITY_DN --output_prefix /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/Trinity.tmp
+-relocating Trinity.tmp.fasta to /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/Trinity.fasta
+Tuesday, November 15, 2022: 12:14:10	CMD: mv Trinity.tmp.fasta /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/Trinity.fasta
+Tuesday, November 15, 2022: 12:14:10	CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/get_Trinity_gene_to_trans_map.pl /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/Trinity.fasta > /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/Trinity.fasta.gene_trans_map
+
+
+###################################################################
+Trinity assemblies are written to /scratch/yao.yao-/worksample/module-08-YaoChiehYao/results/trinity_de_novo/Trinity.fasta
+###################################################################
+
+
