@@ -1,7 +1,7 @@
 
-##  BINF 6308 Assignment8
+BINF 6308 Assignment8
 
-Project name: transcriptome assembly
+# Project name: transcriptome assembly
 The project demos the transcriptome assembly process by 
 using third-party modules called Trinity, and in the end,
 apply Perl to get the results of the statistical analyzation
